@@ -70,4 +70,33 @@ button.onclick = function () {
     button.className = 'black';
   }
 };
+```
 
+> Example Of Looping 
+<P>Here's An Example To Find Odd And Even Number Using Various Loop</P>
+
+```js
+//FOR LOOP
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 === 0) document.write(i + '<br>');
+}
+//WHILE LOOP
+let i = 1;
+while (i <= 100) {
+  document.write(i + '<br>');
+  i++;
+}
+// DO WHILE LOOP
+let i = 10;
+do {
+  document.write(i + '<br>');
+  i++;
+} while (i <= 5);
+//CONFIRM PASSWORD USING PRMOT WINDOW 
+{
+  let password;
+  do {
+    password = prompt('What Is The PassCode?');
+  } while (password !== 'rakit');
+}
+```

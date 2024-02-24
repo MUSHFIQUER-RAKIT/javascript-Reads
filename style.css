@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+#wrapper {
+  margin: 50px auto 0px auto;
+  width: 80%;
+}
+.bgColor {
+  background-color: rgb(74, 106, 124);
+}
+.black {
+  margin: 10px auto;
+  background-color: #8c12ed;
+  padding: 15px 50px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.white {
+  padding: 15px 50px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin: 10px auto;
+  background-color: #12edc8;
+}
+.bgColor2 {
+  background-color: #ed1299;
+}
+img {
+  cursor: pointer;
+}

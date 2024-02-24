@@ -100,3 +100,67 @@ do {
   } while (password !== 'rakit');
 }
 ```
+
+>Javascript ARRAY
+```js
+//EXAMPLE OF ARREY
+let subject = ['Math ', 'physics ', 'Chemistry ', 'Biology'];
+
+subject.splice(1, 2);
+subject.push('NEW ELEMENTS')
+document.write(subject + '<br>');
+document.write(subject.length);
+```
+<p>Some Examples of  Array <br>
+
+1. The splice() method in JavaScript is a powerful tool for manipulating arrays. Let’s dive into how it works:
+
+   subject.splice(1, 2);
+
+   What does splice() do?
+   The splice() method modifies the contents of an array by:
+   Removing existing elements.
+   Replacing existing elements.
+  Adding new elements in place.
+
+2. The push() method in JavaScript is a handy way to add new items to the end of an array. Let’s explore how it works:
+
+   What does push() do?
+   The push() method modifies an array by adding one or more elements to its end.
+   It returns the new length of the array after the addition.
+
+3. The pop() method in JavaScript is a powerful tool for manipulating arrays.
+
+4. The unshift() method in JavaScript is a powerful way to add elements to the beginning of an array.
+5. The shift() method in JavaScript is a powerful tool for manipulating arrays.
+   What does shift() do?
+   The shift() method of Array instances removes the first element from an array and returns that removed element.
+   This method changes the length of the array.
+6. You can blank the value of array using square brackets and length = 0
+   ```js
+   subject = []
+   subject.length=0
+   ```
+7. If you want to check the position of specific element First you need to create a variable
+   ```js
+   let position = subject.indexOf('Chemistry');
+   ```
+8. The split() method in JavaScript is used to divide a string into an array of substrings.
+   ```js
+   let splitArray = 'My Name Is Mushfiquer Rakit'
+   let wordArray = splitArray.split(' ')
+   let join = subject.join('---')
+   let join = subject.concat(subject2,subject3,subject4)
+   document.write(wordArray);
+   console.log(wordArray[3]);
+   ```
+9. The join() method is called on an array and accepts an optional parameter:
+separator: This parameter specifies the character or string that separates the array elements in the resulting string.
+
+11. The join() method is called on an array and accepts an optional parameter:
+separator: This parameter specifies the character or string that separates the array elements in the resulting string.
+
+ 
+</p>
+
+

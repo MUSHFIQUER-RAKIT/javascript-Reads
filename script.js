@@ -18,17 +18,17 @@ document.getElementById('img1').addEventListener('mouseout', function () {
   this.style.filter = 'grayscale(100%)';
 });
 
-window.addEventListener('scroll', function () {
-  if (this.window.pageYOffset > 400) {
-    this.document.body.style.background = 'green';
-  } else {
-    this.document.body.style.background = 'gray';
-  }
-});
+// window.addEventListener('scroll', function () {
+//   if (this.window.pageYOffset > 400) {
+//     this.document.body.style.background = 'green';
+//   } else {
+//     this.document.body.style.background = 'gray';
+//   }
+// });
 
-// for (let i = 1; i <= 10; i++) {
-//   if (i % 2 === 0) document.write(i + '<br>');
-// }
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 === 0) document.write(i);
+}
 
 // let i = 1;
 // while (i <= 100) {
@@ -36,11 +36,11 @@ window.addEventListener('scroll', function () {
 //   i++;
 // }
 
-// let i = 10;
-// do {
-//   document.write(i + '<br>');
-//   i++;
-// } while (i <= 5);
+let i = 10;
+do {
+  document.write(i + '<br>');
+  i++;
+} while (i <= 5);
 
 // {
 //   let password;
@@ -49,9 +49,48 @@ window.addEventListener('scroll', function () {
 //   } while (password !== 'rakit');
 // }
 
-let subject = ['Math ', 'physics ', 'Chemistry ', 'Biology'];
+//EXAMPLE OF ARREY
 
-subject.splice(1, 2);
+// let subject = ['Math', 'physics', 'Chemistry', 'Biology'];
+// let join = subject.join('---');
+// document.write(join);
 
-document.write(subject + '<br>');
-document.write(subject.length);
+// subject.splice(1, 1);
+// document.write(subject + '<br>');
+// document.write(subject.length);
+
+// let splitArray = 'My Name Is Mushfiquer Rakit';
+// let wordArray = splitArray.split(' ');
+// document.write(wordArray);
+// console.log(wordArray[3]);
+
+document.write('<br>');
+document.write('<br>');
+
+//Objects in JavaScript
+
+// let person = {
+//   firstName: 'Mushfiquer',
+//   lastName: 'Rakit',
+//   fullName: function () {
+//     return this.firstName + ' ' + this.lastName;
+//   },
+//   age: 20,
+//   hobbies: ['Coding', 'Gaming', 'Bike Raiding', 'Traveling'],
+// }
+
+// for (let check in person) {
+//   document.write(check + ': ' + person[check] + '<br>');
+// }
+
+//~~~~~~~~~~~~ MATH IN JAVASCRIPT~~~~~~~~~
+var x = Math.max(100, 200, 300, 400, 500);
+
+document.write(x);
+
+document.write('<br>');
+document.write('<br>');
+
+var d = new Date('January 10 2008');
+d.setFullYear(2010);
+document.write(d.toDateString());

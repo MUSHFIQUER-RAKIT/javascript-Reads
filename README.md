@@ -159,8 +159,76 @@ separator: This parameter specifies the character or string that separates the a
 
 11. The join() method is called on an array and accepts an optional parameter:
 separator: This parameter specifies the character or string that separates the array elements in the resulting string.
-
- 
 </p>
 
+><h1> Javascript Documents Object Model </h1>
+GET ELEMENT BY 'ID' NAME
+```js
+var headerTitle = document.getElementById('header-title');
+var header = document.getElementById('header');
+headerTitle.innerHTML += ' RAKIT';
+header.style.borderBottom = '10px solid white';
+```
+GET ELEMENT BY 'CLASS' NAME
+```js
+var items = document.getElementsByClassName('list-item');
+items[1].style.color = '#7B0323';
+items[3].style.fontWeight = 'bold';
+//Need to create for Loop to apply all classes 
+for (var i = 0; i < items.length; i++) {
+  items[i].innerHTML += '💕';}
+```
+GET ELEMENT BY 'TAG' NAME
+```js
+var h4 = document.getElementsByTagName('h4');
+h4[0].style.color = '#7B0323';
+function Action() {
+  var y = document.getElementsByTagName('button');
+  y[0].style.backgroundColor = '#7B0323';}
+```
+DOB EXAMPLE OF QUERYSELECTOR
+```js
+var order = document.querySelector('.orderList');
+var order2 = document.querySelector('.orderList:last-child');
+var order3 = document.querySelectorAll('.orderList');
+order.style.color = 'red';
+order2.style.color = 'green';
+order3[2].style.fontWeight = 'bold';
+
+var odd = document.querySelectorAll('.orderList:nth-child(odd)');
+for (i = 0; i < odd.length; i++) {
+  odd[i].style.backgroundColor = '#09088d';
+  odd[i].style.fontWeight = 'bold';}
+
+var input = document.querySelector('input');
+var input2 = document.querySelector('input[type="submit"]');
+input.value = 'Enter Your Name';
+input2.value = 'CONFIRM';
+```
+><h1>How to make HTML elements by JavaScript </h1>
+Here is an example of adding new DIV by js
+
+Creating div by 'createElement'
+```js
+var newDiv = document.createElement('div');
+```
+Adding 'Class' & Adding 'ID' to New DIV
+```js
+newDiv.className = 'box';
+newDiv.id = 'textbox';
+```
+Create Text  By "createTextNode" & add text to div by "appendChild"
+```js
+var newDivText = document.createTextNode('This is an example to add DIV on html');
+newDiv.appendChild(newDivText);
+newDiv.style.fontWeight = 'bold';
+```
+Need To Create Two 'veriable'
+1st on to Carry Newdiv,
+2nd On to choose Whice Elements Before It Show.
+```js
+var container = document.querySelector('#content');
+var form = document.querySelector('form');
+container.insertBefore(newDiv, form);
+```
 

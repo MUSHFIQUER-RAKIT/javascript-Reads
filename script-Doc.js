@@ -9,20 +9,20 @@ header.style.borderBottom = '10px solid white';
 // GET ELEMENT BY 'CLASS' NAME
 var items = document.getElementsByClassName('list-item');
 items[2].innerHTML += ' , Photo Editing';
-items[1].style.color = '#7B0323';
+items[1].style.color = '#e5009d';
 items[3].style.fontWeight = 'bold';
 
 for (var i = 0; i < items.length; i++) {
-  items[i].innerHTML += '💕';
+  items[i].innerHTML += '🪶';
 }
 
 // GET ELEMENT BY 'TAG' NAME
 var h4 = document.getElementsByTagName('h4');
-h4[0].style.color = '#7B0323';
+h4[0].style.color = '#e5009d';
 
 function Action() {
   var y = document.getElementsByTagName('button');
-  y[0].style.backgroundColor = '#7B0323';
+  y[0].style.backgroundColor = '#e5009d';
 }
 
 // DOB EXAMPLE OF QUERYSELECTOR
@@ -64,8 +64,8 @@ var newDivText = document.createTextNode(
 // add text to div
 newDiv.appendChild(newDivText);
 newDiv.style.color = 'white';
-newDiv.style.textTransform = 'capitalize'
-newDiv.style.fontWeight = 'bold'
+newDiv.style.textTransform = 'capitalize';
+newDiv.style.fontWeight = 'bold';
 newDiv.style.backgroundColor = 'purple';
 newDiv.style.border = '3px solid black';
 newDiv.style.padding = '10px';

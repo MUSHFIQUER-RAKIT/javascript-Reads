@@ -5,6 +5,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #100731;
+  color: white;
 }
 header {
   background-color: #246770;
@@ -16,13 +17,11 @@ header {
   width: 70%;
   padding: 10px;
 }
-.co {
-  display: flex;
-  justify-content: center;
-}
+
 #content {
-  width: 70%;
+  width: 50%;
   padding: 10px;
+  padding-left: 200px;
 }
 
 #items h4 {
@@ -32,14 +31,13 @@ header {
   font-size: 20px;
 }
 form input {
-  background-color: #3f494b;
   padding: 7px 30px;
   border-radius: 7px;
   margin-top: 20px;
 }
 button {
   padding: 10px 20px;
-  background-color: #246396;
+  background-color: #6ebeff;
 }
 
 div#content h4 {
